@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application</string>
+    <string name="ressources">Hello World(anglais)</string>
+    <string name="version_java">Java Version</string>
+    <string name="prenom">Name</string>
+    <string name="nom">Familly Name</string>
+    <string name="version_xml">XML version</string>
+    <string name="secteur_activit">Work field</string>
+    <string name="age">Age</string>
+    <string name="t_l_phone">Phone</string>
+    <string name="valider">Confirm</string>
+</resources>
