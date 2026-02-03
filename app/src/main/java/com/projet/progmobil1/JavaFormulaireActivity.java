@@ -1,5 +1,6 @@
 package com.projet.progmobil1;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.ViewGroup;
@@ -7,9 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import androidx.appcompat.app.AppCompatActivity;
 
-public class JavaFormulaireActivity extends AppCompatActivity {
+public class JavaFormulaireActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
