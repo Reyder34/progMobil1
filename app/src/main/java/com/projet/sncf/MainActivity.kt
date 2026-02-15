@@ -98,7 +98,7 @@ fun SNCFSearchScreen(onSearchRequested: (String, String) -> Unit) {
         OutlinedTextField(
             value = villeArrivee,
             onValueChange = { villeArrivee = it },
-            label = { Text("Ville d'arrivée") },
+            label = { Text("Ville d'arrivée ") },
             modifier = Modifier.fillMaxWidth()
         )
         Spacer(Modifier.height(32.dp))
