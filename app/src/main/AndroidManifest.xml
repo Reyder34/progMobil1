@@ -11,8 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProgMobil1">
-        <activity android:name="JavaFormulaireActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+        <activity android:name=".DisplayActivity" />
+        <activity android:name=".SuccessActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
