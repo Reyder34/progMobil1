@@ -22,7 +22,7 @@ public class SuccessActivity extends Activity {
 
         btnAppeler.setOnClickListener(v -> {
             Intent callIntent = new Intent(Intent.ACTION_DIAL);
-            callIntent.setData(Uri.parse("tel:" + tel));
+            callIntent.setData(Uri.parse("tel: " + tel));
             startActivity(callIntent);
         });
     }
