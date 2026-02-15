@@ -20,7 +20,7 @@ public class DisplayActivity extends Activity {
 
         // Récupération des données passées par l'Intent
         Intent intent = getIntent();
-        String displayString = "Nom: " + intent.getStringExtra("EXTRA_NOM") + "\n"
+        String displayString = "Nom: " + intent.getStringExtra("EXTRA_NOM") + " \n"
                 + "Prénom: " + intent.getStringExtra("EXTRA_PRENOM") + "\n"
                 + "Age: " + intent.getStringExtra("EXTRA_AGE") + "\n"
                 + "Secteur: " + intent.getStringExtra("EXTRA_SECTEUR") + "\n"
