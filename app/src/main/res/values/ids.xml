@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvRecap" type="id" />
+    <item name="btnOk" type="id" />
+    <item name="btnRetour" type="id" />
+</resources>
