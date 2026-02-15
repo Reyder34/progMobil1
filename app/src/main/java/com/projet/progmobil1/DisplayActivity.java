@@ -31,6 +31,8 @@ public class DisplayActivity extends Activity {
         // Bouton OK -> 3ème activité
         btnOk.setOnClickListener(v -> {
             Intent intentNext = new Intent(DisplayActivity.this, SuccessActivity.class);
+            String tel = getIntent().getStringExtra("EXTRA_TEL");
+            intentNext.putExtra("EXTRA_TEL", tel);
             startActivity(intentNext);
         });
 
